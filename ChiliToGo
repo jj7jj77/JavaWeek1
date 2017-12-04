@@ -1,0 +1,29 @@
+package JavaClassHomework1;
+import java.util.Scanner;
+public class ChiliToGo
+{
+    public static void main(String[] args)
+    {
+        int AdultMealprice = 7;
+        int ChildrenMealprice = 4;
+            
+        Scanner imp = new Scanner (System.in);
+        System.out.print("How many adult meals do you need?");
+        int AdultMeals = imp.nextInt();
+        System.out.print("How many children meals do you need?");
+        int ChildrenMeals = imp.nextInt();
+                        
+        int total_numb_of_All_Meals = AdultMeals + ChildrenMeals;
+    
+        double total_cost_of_Adult_Meal = AdultMeals * AdultMealprice;
+        double total_cost_of_Children_Meal = ChildrenMeals * ChildrenMealprice;
+        double total_cost_for_All_Meals = (total_cost_of_Adult_Meal + total_cost_of_Children_Meal);
+    
+        System.out.println("You ordered " + AdultMeals + " adult meal/s ");
+        System.out.println("You ordered " + ChildrenMeals + " children meal/s ");
+        System.out.println("You ordered " + total_numb_of_All_Meals + " meal/s ");
+        System.out.println("Your total cost of Adult Meals is $" + total_cost_of_Adult_Meal);
+        System.out.println("Your total cost of Children Meals is $" + total_cost_of_Children_Meal);
+        System.out.println("Your total cost for All Meals is $" + total_cost_for_All_Meals);
+    }
+}
