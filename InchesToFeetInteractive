@@ -1,0 +1,15 @@
+package javaclassweek1;
+import java.util.Scanner;
+public class InchesToFeetInteractive
+{
+    public static void main(String[] args)
+    {
+        Scanner imp = new Scanner (System.in);
+        System.out.print("How many inches?");
+        int inches = imp.nextInt();
+        int Feet = inches/12;
+        int rem = inches % 12;
+           
+    System.out.println("Feet = " + Feet + " Remaining Inches = " + rem);
+    }
+}
