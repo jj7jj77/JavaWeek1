@@ -1,0 +1,15 @@
+package javaclassweek1;
+import java.util.Scanner;
+public class QuartstoGallonsInteractive
+{
+    public static void main(String[] args)
+    {
+        Scanner imp = new Scanner (System.in);
+        System.out.print("How many quarts do you need?");
+        int paintneeded = imp.nextInt();
+        int gallons = paintneeded / 4;
+        int quarts = paintneeded % 4;
+   
+    System.out.println("A job that needs " + paintneeded + " quarts required " + gallons + " gallons plus" + quarts + " quarts");
+    }
+}
