@@ -1,0 +1,12 @@
+package javaclassweek1;
+public class InchesToFeet 
+{
+    public static void main(String[] args)
+    {
+        int inches = 86;
+        int Feet = inches/12;
+        int rem = inches % 12;
+           
+    System.out.println("Feet = " + Feet + " Remaining Inches = " + rem);
+     }
+}
