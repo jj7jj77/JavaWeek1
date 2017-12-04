@@ -1,0 +1,11 @@
+package javaclassweek1;
+public class Initials 
+{   
+    public static void main(String[] args)
+    {
+        char F = 'J';
+        char M = 'R';
+        char L = 'K';
+        System.out.println(F + "."  + M + "." + L ".");
+    }
+}
