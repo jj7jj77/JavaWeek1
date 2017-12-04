@@ -1,0 +1,12 @@
+package javaclassweek1;
+public class QuartstoGallons
+{
+    public static void main(String[] args)
+    {
+    int paintneeded = 18;
+    int gallons = paintneeded / 4;
+    int quarts = paintneeded % 4;
+    
+    System.out.println("A job that needs " + paintneeded + " quarts required " + gallons + " gallons plus " + quarts + " quarts ");
+    }
+}
